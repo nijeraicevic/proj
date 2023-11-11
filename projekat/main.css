@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    table-layout: fixed;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+ }
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10;
+ }
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+ }
+article {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+}
+li a{
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+.slika{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
