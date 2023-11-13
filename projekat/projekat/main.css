@@ -43,3 +43,15 @@ li a{
     width: 30%;
     padding: 10px;
 }
+#plus{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: rgb(0, 186, 0);
+    padding: 10px;
+}
+#minus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(104, 0, 0);
+    color: rgb(33, 33, 33);
+    padding: 11px;
+}
