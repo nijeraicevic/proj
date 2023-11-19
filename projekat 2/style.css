@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    font-family: 'Merriweather', serif;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.glava1{
+    align-items: center;
+    display: flex; 
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    
+}
+.glava1 li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 10px;
+}
+.glava2{
+    align-items: center;
+    display: flex; 
+    background-color: gray;
+    height: 70px;
+    justify-content: space-between;
+    
+}
+.glava2 li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 10px;
+}
+.slika{
+    background-image: url('slike/pozadina.jpeg');
+    background-size: 100%;
+    width: 1980px;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dugme{
+    text-decoration: none;
+    padding:10px; 
+    width: 150px;
+    border-radius: 30px;
+    background-color: goldenrod;
+}
+.telo{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
