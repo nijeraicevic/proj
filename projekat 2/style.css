@@ -37,7 +37,7 @@ li a{
 }
 .slika{
     background-image: url('slike/pozadina.jpeg');
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     height: 600px;
     background-repeat: no-repeat;
