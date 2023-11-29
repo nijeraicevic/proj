@@ -1,0 +1,107 @@
+@import url('ttf/point-panther-point-panther-regular-400.ttf');
+@import url('otf/point-panther-point-panther-regular-400.otf');
+
+@font-face {
+    font-family: 'Panter';
+    src: local('Panter'),
+         url('ttf/point-panther-point-panther-regular-400.ttf/') format('truetype'),
+         url('otf/point-panther-point-panther-regular-400.otf') format('opentype');
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Panter', sans-serif;
+    
+}
+body{
+    background-image: url(slike/pozadina.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.nav{
+    align-items: center;
+    display: flex; 
+    height: 100px;
+    justify-content: space-around;
+    gap: 2rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.nav-s{
+    align-items: center;
+    display: flex; 
+    height: 100px;
+    justify-content: space-around;
+    gap: 2rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.menu{
+    display: none;
+}
+.cont{
+    padding-left: 10%;
+    padding-top:5%;
+    align-items: center;
+    display: flex; 
+    overflow-x: hidden;
+    gap: 2rem;
+    margin-right: 50%;
+
+}
+.text{
+    align-items: center;
+}
+.lista{
+    align-items: center;
+    display: flex; 
+    justify-content: space-around;
+    gap: 2rem;
+}
+.dugme{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    border: none;
+}
+.p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+.b{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+@media (max-width: 500px){
+
+.nav-s{
+    display:none;
+}
+.menu{
+    display: inline-block;
+}
+.welcome{
+    text-align: center;
+}
+.cont{
+    padding-left: 10%;
+    padding-top:0%;
+}
+
+}
