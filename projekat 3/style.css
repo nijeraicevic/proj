@@ -44,6 +44,12 @@ li{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.logo1{
+    display: none;
+}
+.logo2{
+    width: 50px;
+}
 .menu{
     display: none;
 }
@@ -89,7 +95,10 @@ li{
 }
 
 @media (max-width: 500px){
-
+.nav{
+    
+    justify-content: space-between;
+}
 .nav-s{
     display:none;
 }
@@ -98,10 +107,27 @@ li{
 }
 .welcome{
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .cont{
-    padding-left: 10%;
+    padding-left:0%;
     padding-top:0%;
+    margin-right: 0%;
+}
+.slika{
+    display: none;
+}
+.logo1{
+    width: 70px;
+    display: inline-block;
+    align-self: center;
+}
+.logo2{
+    display:none;
+}
+.p{
+    margin:0px;
 }
 
 }
