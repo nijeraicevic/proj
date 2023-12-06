@@ -18,6 +18,8 @@ body, html {
 body{
     background-image: url(slike/pozadina.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 a{
     text-decoration: none;
@@ -54,17 +56,24 @@ li{
     display: none;
 }
 .cont{
-    padding-left: 10%;
     padding-top:5%;
     align-items: center;
     display: flex; 
     overflow-x: hidden;
     gap: 2rem;
-    margin-right: 50%;
-
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
 }
 .text{
     align-items: center;
+    max-width: 400px;
+    padding:10px;
+}
+
+.join{
+    font-size: 70px; 
 }
 .lista{
     align-items: center;
@@ -81,10 +90,11 @@ li{
     border: none;
 }
 .p{
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 50%;
+    text-align: center;    
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 .b{
     width: 150px;
     height: 50px;
@@ -93,6 +103,7 @@ li{
     background-color: transparent;
     border: 1px solid black;
 }
+
 
 @media (max-width: 500px){
 .nav{
@@ -111,9 +122,12 @@ li{
     flex-direction: column;
 }
 .cont{
-    padding-left:0%;
-    padding-top:0%;
-    margin-right: 0%;
+        padding-left:0%;
+        padding-top:0%;
+        margin-right: 0%;
+}
+.join{
+    font-size: 70px;
 }
 .slika{
     display: none;
