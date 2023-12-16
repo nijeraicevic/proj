@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'pisano';
+    src: url(font/pink_bloom.ttf),url(font/pink_bloom.otf);
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(font/montserrat.ttf);
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'montserrat';
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
+/* Navigacija */
+#nav{
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: hidden;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.naslov{
+    align-items: center;
+    margin: auto 0;
+    font-family: 'pisano';
+    font-size: 30px;
+}
+/* Kontent 1*/
+#cont1{
+    background-image: url("slike/panorama.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont1{
+    margin: 150px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+.slika{
+    width: 500px;
+    opacity: 0.9;
+}
+.text{
+    max-width: 400px;
+    position: relative;
+    top: 180px;
+}
+.lorem{
+    font-size: 15px;
+}
+/*Kontent 2*/
+#cont2{
+    padding: 60px; 
+    width: 100%;
+    background-color: bisque;
+}
+.head2{
+    text-align: center; 
+    font-size: 60px; 
+    font-family: 'pisano';
+}
+.cont2{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    gap: 1rem;
+    align-items: center;
+}
+.check{
+    width: 60px;
+    height: 60px;
+}
+.lista1{
+    max-width: 40%;   
+}
+.lista2{
+    max-width: 40%;
+}
+/*Kontent 3*/
+#cont3{
+    padding: 60px; 
+    width: 100%;
+}
+.text3{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.cont3{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(37, 37, 83);
+    width: 500px;
+    padding: 20px;
+}
+.dugme{
+    padding: 20px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.dugme a{
+    color: white;
+    text-decoration: none;
+}
+/*Footer*/
+#footer{
+    background-color: rgb(37, 37, 83);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 150px;
+}
+/*RESPONSIVE*/
+@media(max-width: 500px){
+    /*Navigacija*/
+    .lista{
+        display: none;
+    }
+    .slika{
+        display: none;
+    }
+    /*Kontent 1*/
+    #cont1{
+        height: 700px;
+    }
+    .cont1{
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .text{
+        max-width: 400px;
+        text-align: center;
+        position: relative;
+        top: 140px;
+    }
+    /*Kontent 2*/
+    #cont2{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .head2{
+        font-size: 50px;
+    }
+    .cont2{
+        display: inline-block;
+        margin: 0px auto;
+        text-align: center;
+        justify-content: center;
+    }
+    li{
+        display: flex;
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    .lista1{
+        margin: 0 auto;
+        max-width: 400px;   
+    }
+    .lista2{        
+        margin: 0 auto;
+        max-width: 400px; 
+    }
+
+    .check{
+        display:none;
+    }
+    /*Kontent 3*/
+    #cont3{
+        padding: 10px 0px; 
+        width: 100%;
+    }
+    .text3{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .cont3{
+        display: inline-block;
+        justify-content: center;
+    }
+    .box{
+        font-size: 20px;
+        text-align: center;
+        background-color: rgb(37, 37, 83);
+        text-align: center;
+        margin: 0px auto;
+        max-width: 400px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .dugme{
+        padding: 20px;
+        width: 200px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    .dugme a{
+        color: white;
+        text-decoration: none;
+    }
+    /*Footer*/
+    #footer{
+        background-color: rgb(37, 37, 83);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        height: 150px;
+    }
+}
+
+
+
+
+
